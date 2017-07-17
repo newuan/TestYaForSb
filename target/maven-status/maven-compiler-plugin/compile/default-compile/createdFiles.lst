@@ -1,0 +1,7 @@
+com\selenium\test\webtestsbase\WebDriverFactory.class
+com\selenium\test\webtestsbase\CapabilitiesGenerator$1.class
+com\selenium\test\webtestsbase\BasePage.class
+com\selenium\test\webtestsbase\WebDriverFactory$1.class
+com\selenium\test\utils\TimeUtils.class
+com\selenium\test\webtestsbase\CapabilitiesGenerator.class
+com\selenium\test\webtestsbase\Browser.class

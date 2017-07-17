@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.test.junit.tests.FireFoxTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 47.408 s <<< FAILURE! - in com.selenium.test.junit.tests.FireFoxTest
+testMarket(com.selenium.test.junit.tests.FireFoxTest)  Time elapsed: 47.408 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .n-product-summary__content
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'USA', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alexey\AppData\Local\Temp\rust_mozprofile.Jqo3pvrjAYkN, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=54.0.1, platformVersion=10.0, moz:processID=6828.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: ee3f69db-fe76-47a3-80f2-4a07cc2e8547
+*** Element info: {Using=css selector, value=.n-product-summary__content}
+	at com.selenium.test.junit.tests.FireFoxTest.testMarket(FireFoxTest.java:40)
+

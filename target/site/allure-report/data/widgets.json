@@ -1,0 +1,97 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 4,
+        "passed" : 0,
+        "pending" : 2,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 1
+      },
+      "time" : {
+        "start" : 1500236208087,
+        "stop" : 1500236295789,
+        "duration" : 87702
+      }
+    },
+    "defects" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "7a2074f3057b586c",
+        "message" : "AssertionError: Number of results on page 12 and not equal to 1 expected:<12> but was:<1>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "78f220d6449063ef",
+        "message" : "NoSuchElementException: Unable to locate element: .n-product-summary__content\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'USA', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Alexey\\AppData\\Local\\Temp\\rust_mozprofile.Jqo3pvrjAYkN, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=54.0.1, platformVersion=10.0, moz:processID=6828.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: ee3f69db-fe76-47a3-80f2-4a07cc2e8547\n*** Element info: {Using=css selector, value=.n-product-summary__content}",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 4,
+      "items" : [ {
+        "uid" : "a5b5a18cf6b4a320",
+        "title" : "Chrome test",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "271c6ed633be5a3f",
+        "title" : "Fire fox test",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 1
+        }
+      }, {
+        "uid" : "db872d6a793c7ec",
+        "title" : "Page object test",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 0,
+          "pending" : 1,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "f1dfc113c88fb6fa",
+        "title" : "Simple test",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 0,
+          "pending" : 1,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 4,
+          "passed" : 0,
+          "pending" : 2,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 1
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

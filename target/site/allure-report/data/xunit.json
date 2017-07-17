@@ -1,0 +1,128 @@
+{
+  "time" : {
+    "start" : 1500236208087,
+    "stop" : 1500236295789,
+    "duration" : 87702
+  },
+  "testSuites" : [ {
+    "uid" : "a5b5a18cf6b4a320",
+    "name" : "com.selenium.test.junit.tests.ChromeTest",
+    "title" : "Chrome test",
+    "time" : {
+      "start" : 1500236208087,
+      "stop" : 1500236248350,
+      "duration" : 40263
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "409ec077b3064c47",
+      "name" : "testMarket",
+      "title" : "Test market",
+      "time" : {
+        "start" : 1500236208087,
+        "stop" : 1500236248350,
+        "duration" : 40263
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "f1dfc113c88fb6fa",
+    "name" : "com.selenium.test.junit.tests.SimpleTest",
+    "title" : "Simple test",
+    "time" : {
+      "start" : 1500236295789,
+      "stop" : 1500236295789,
+      "duration" : 0
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 1,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "2930f7f3c8b8f537",
+      "name" : "UnknownTestCase",
+      "title" : "Unknown test case",
+      "time" : {
+        "start" : 1500236295789,
+        "stop" : 1500236295789,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    } ]
+  }, {
+    "uid" : "db872d6a793c7ec",
+    "name" : "com.selenium.test.junit.tests.PageObjectTest",
+    "title" : "Page object test",
+    "time" : {
+      "start" : 1500236295789,
+      "stop" : 1500236295789,
+      "duration" : 0
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 1,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "ac553381d8a4831a",
+      "name" : "UnknownTestCase",
+      "title" : "Unknown test case",
+      "time" : {
+        "start" : 1500236295789,
+        "stop" : 1500236295789,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    } ]
+  }, {
+    "uid" : "271c6ed633be5a3f",
+    "name" : "com.selenium.test.junit.tests.FireFoxTest",
+    "title" : "Fire fox test",
+    "time" : {
+      "start" : 1500236248350,
+      "stop" : 1500236295789,
+      "duration" : 47439
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "b1059c91564c38cc",
+      "name" : "testMarket",
+      "title" : "Test market",
+      "time" : {
+        "start" : 1500236248350,
+        "stop" : 1500236295789,
+        "duration" : 47439
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  } ]
+}

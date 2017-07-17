@@ -1,0 +1,53 @@
+{
+  "hosts" : [ {
+    "title" : "Usa",
+    "threads" : [ {
+      "title" : "10016@Usa.main(1)",
+      "testCases" : [ {
+        "uid" : "409ec077b3064c47",
+        "name" : "testMarket",
+        "title" : "Test market",
+        "time" : {
+          "start" : 1500236208087,
+          "stop" : 1500236248350,
+          "duration" : 40263
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "2930f7f3c8b8f537",
+        "name" : "UnknownTestCase",
+        "title" : "Unknown test case",
+        "time" : {
+          "start" : 1500236295789,
+          "stop" : 1500236295789,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "ac553381d8a4831a",
+        "name" : "UnknownTestCase",
+        "title" : "Unknown test case",
+        "time" : {
+          "start" : 1500236295789,
+          "stop" : 1500236295789,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "b1059c91564c38cc",
+        "name" : "testMarket",
+        "title" : "Test market",
+        "time" : {
+          "start" : 1500236248350,
+          "stop" : 1500236295789,
+          "duration" : 47439
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

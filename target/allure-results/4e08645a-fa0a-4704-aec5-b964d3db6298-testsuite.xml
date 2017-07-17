@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1500236295789" stop="1500236296003" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>com.selenium.test.junit.tests.SimpleTest</name>
+    <test-cases>
+        <test-case start="1500236295789" stop="1500236295789" status="pending">
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Usa"/>
+                <label name="thread" value="10016@Usa.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

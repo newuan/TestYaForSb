@@ -1,0 +1,14 @@
+com\selenium\test\pages\AdvancedFilterPage.class
+com\selenium\test\pages\YouTubePage.class
+com\selenium\test\junit\rules\ScreenShotOnFailRule.class
+com\selenium\test\junit\tests\PageObjectTest.class
+com\selenium\test\pages\MarketPage.class
+com\selenium\test\pages\ProductPage.class
+com\selenium\test\junit\tests\FireFoxTest.class
+com\selenium\test\pages\MarketCatalogPage.class
+com\selenium\test\junit\tests\SimpleTest.class
+com\selenium\test\junit\rules\WebDriverRule.class
+com\selenium\test\junit\tests\ChromeTest.class
+com\selenium\test\junit\rules\ScreenShotOnFailRule$1.class
+com\selenium\test\pages\YouTubeSearchResultsPage.class
+com\selenium\test\pages\YandexPage.class
